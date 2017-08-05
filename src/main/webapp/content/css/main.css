@@ -1,5 +1,5 @@
 body {
-    background: #fafafa;
+    background: rgba(224, 224, 224, 0);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
@@ -83,7 +83,31 @@ Logo styles
     height: 45px;
     display: inline-block;
 }
+.container {
+	display:block;
+	width: inherit;
+}
 
+.headerimage{
+	background: url("../images/background.png") no-repeat center ;
+	height: 500px;
+	position: relative;
+}
+#circle{
+   width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ 	background: url("../images/logo-jhipster.png") no-repeat center bottom; 
+ 	/* //background: black; */
+ 	position:absolute;
+ 	bottom: 0;
+ 	right: 43%;
+ 	text-align: center;	
+}
+
+.contain{
+	
+}
 /* ==========================================================================
 Main page styles
 ========================================================================== */
